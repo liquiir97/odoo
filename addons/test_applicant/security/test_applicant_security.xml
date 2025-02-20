@@ -1,0 +1,7 @@
+<odoo>
+    <!-- Create Custom Security Group -->
+    <record id="group_manager" model="res.groups">
+        <field name="name">Test Applicant Manager</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+    </record>
+</odoo>

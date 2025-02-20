@@ -1,6 +1,13 @@
 [main]
 host = https://www.transifex.com
 
+[o:odoo:p:odoo-18:r:test_applicant]
+type = PO
+type                   = PO
+minimum_perc           = 0
+resource_name          = test_applicant
+replace_edited_strings = false
+keep_translations      = false
 [o:odoo:p:odoo-18:r:account]
 file_filter            = addons/account/i18n/<lang>.po
 source_file            = addons/account/i18n/account.pot
