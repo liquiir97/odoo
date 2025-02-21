@@ -41,9 +41,6 @@
         #'security/test_applicant_security.xml',
         'security/ir.model.access.csv',
         'views/views.xml',
-        #'D:\\Development\\odoo\\addons\\test_applicant\\security\\test_applicant_security.xml',  # Security groups should be loaded first
-        #'D:\\Development\\odoo\\addons\\test_applicant\\security\\ir.model.access.csv',         # Then access rights
-        #'D:\\Development\\odoo\\addons\\test_applicant\\views\\views.xml',                      # Finally, views
     ],
     'installable': True,
     'application': True,
