@@ -40,6 +40,7 @@
     'data': [
         #'security/test_applicant_security.xml',
         'security/ir.model.access.csv',
+        'data/mark_done.xml',
         'views/views.xml',
     ],
     'installable': True,
