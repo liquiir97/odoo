@@ -68,6 +68,7 @@
         <list string="Test Model">
             <field name="reference_code"/>
             <field name="name"/>
+            <field name="description"/>
             <field name="state"/>
             <field name="active"/>
             <button name="action_confirm" type="object" string="Confirm" invisible="state in ('done', 'confirmed')"/>
