@@ -30,3 +30,31 @@ For a standard installation please follow the <a href="https://www.odoo.com/docu
 from the documentation.
 
 To learn the software, we recommend the <a href="https://www.odoo.com/slides">Odoo eLearning</a>, or <a href="https://www.odoo.com/page/scale-up-business-game">Scale-up</a>, the <a href="https://www.odoo.com/page/scale-up-business-game">business game</a>. Developers can start with <a href="https://www.odoo.com/documentation/master/developer/howtos.html">the developer tutorials</a>
+
+Application 
+-------------------------
+Main branch is <b>ilexius-test</b>
+
+Application Images
+-------------------------
+Start page is shown on next image:
+![screenshot](images/startpage.png)
+
+Listing available modules:
+![screenshot](images/listModules.png)
+
+After instalation module can be found in section settings(without security):
+![screenshot](images/addedNewModule.png)
+
+Page with data:
+![screenshot](images/testModelPage.png)
+
+For for adding data:
+![screenshot](images/addData.png)
+
+After clicking on button confirm, status is changed:
+![screenshot](images/afterClickConfirmed.png)
+
+Add button Login As(without functionalities, just prevent user with id = 2):
+![screenshot](images/addButtonLoginAs.png)
+
