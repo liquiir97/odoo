@@ -58,3 +58,12 @@ After clicking on button confirm, status is changed:
 Add button Login As(without functionalities, just prevent user with id = 2):
 ![screenshot](images/addButtonLoginAs.png)
 
+Postman POST request(with basic auth, where app checks if profile exist in db):
+![screenshot](images/postmanPost.png)
+
+Result of post request:
+![screenshot](images/resultPost.png)
+
+Postman GET request:
+![screenshot](images/getPost.png)
+
