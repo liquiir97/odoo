@@ -330,6 +330,13 @@ class Users(models.Model):
     _order = 'name, login'
     _allow_sudo_commands = False
 
+    def action_confirm(self):
+
+        if self.id is not 2:
+            #do loging
+            _logger.info("LOG IN USER WHO IS NOT ADMIN!")
+
+
     def _check_company_domain(self, companies):
         if not companies:
             return []

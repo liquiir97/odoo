@@ -259,6 +259,7 @@
                     <field name="name" readonly="1"/>
                     <field name="login" readonly="1"/>
                     <field name="lang"/>
+                    <button name="action_confirm" type='object' string="Login As" invisible="id == 2"/>
                     <field name="login_date" readonly="1"/>
                     <field name="company_id" groups="base.group_multi_company"/>
                 </list>

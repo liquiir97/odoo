@@ -37,7 +37,7 @@ class TestApplicant(http.Controller):
             'name' : record.name,
             'description' : record.description,
             'state' : record.state})
-        return Response(json.dumps({'message' : 'success', 'data' : data}), content_type='application/json', status=200)
+        return Response(json.dumps({'data' : data}), content_type='application/json', status=200)
 
     @http.route('/test_model', auth='public', methods=['POST'], csrf=False)
     def add_new(self, **kw):
